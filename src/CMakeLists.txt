@@ -1,7 +1,7 @@
 find_package(PkgConfig)
 
 if (OPTION_OMP)
-    find_package(OpenMP REQUIRED COMPONENTS CXX)
+    find_package(OpenMP COMPONENTS CXX)
 endif()
 
 set(rtprocess_SRCS
